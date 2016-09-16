@@ -43,7 +43,7 @@ df$City <- substring(df$Center, 1, 2)
 
 #create connection
 library(RODBC)
-dbhandle <- odbcDriverConnect('driver={SQL Server};server=JOSHUASHAPIRO\\SQLEXPRESS;database=Center Management Reporting;trusted_connection=true')
+dbhandle <- odbcDriverConnect('driver={SQL Server};server=hidden\\SQLEXPRESS;database=Center Management Reporting;trusted_connection=true')
 
 #insert data
 #big insert
